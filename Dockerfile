@@ -1,3 +1,6 @@
 FROM odoo:18
 
-CMD ["odoo", "--db_host=$HOST", "--db_user=$USER", "--db_password=$PASSWORD"]
+ENV DB_HOST=centerbeam.proxy.rlwy.net
+ENV DB_PORT=37999
+ENV DB_USER=postgres
+ENV DB_PASSWORD=nmWlKTUUPHUbdllpHiPpddNdBrYpvKST
